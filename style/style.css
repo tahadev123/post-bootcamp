@@ -1,0 +1,89 @@
+/* @font-face {
+    font-family: Yekan-bakh;
+    src: url(../assets/fonts/YekanBakh-Regular/YekanBakh-Regular.ttf) format("ttf");
+} */
+
+@font-face {
+    font-family: "yekan-bakh";
+    src: url(../assets/fonts/YekanBakh-Bold/YekanBakh-Bold.ttf);
+}
+
+.container {
+    width: 32%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(80,213,62,1) 0%, rgba(24,82,22,1) 100%);
+}
+
+.post {
+    width: 70%;
+    height: 200px;
+    background-color: #246D1F;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.35);
+}
+
+.title {
+    width: 100%;
+    height: 27%;
+    background-color: #11420D;
+    border-radius: 7px 7px 0 0;
+}
+
+.title > p {
+    text-align: center;
+    padding-top: 17px;
+    color: #D0F26D;
+    font-family: "yekan-bakh";
+}
+
+.description {
+    height: 65%;
+    padding: 0 20px;
+}
+
+.description > p {
+    color: #fff;
+    font-family: 'yekan-bakh';
+    font-size: 0.9rem;
+    padding-top: 19px;
+    text-align: justify;
+}
+
+.triangle-one {
+    width: 60%;
+    height: 55%;
+    background: linear-gradient(90deg, rgba(10,144,10,1) 0%, rgba(39,113,33,1) 100%);
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    float: left;
+    position: relative;
+    top: 70px;
+    border-bottom-left-radius: 10px;
+}
+
+.triangle-two {
+    width: 42%;
+    height: 38%;
+    background: linear-gradient(90deg, rgba(5, 13, 10, 1) 0%, rgba(33, 91, 38, 1) 100%);
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    float: left;
+    position: relative;
+    bottom: 159px;
+    border-bottom-left-radius: 10px;
+}
+
+.triangle-three {
+    width: 23%;
+    height: 21%;
+    background: linear-gradient(90deg, rgba(5, 13, 10, 1) 0%, rgba(33, 91, 38, 1) 100%);
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    float: left;
+    position: relative;
+    bottom: 57px;
+    right: 206px;
+    border-bottom-left-radius: 10px;
+}
